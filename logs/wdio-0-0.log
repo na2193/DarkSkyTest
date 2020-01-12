@@ -1,0 +1,98 @@
+2020-01-12T15:35:02.046Z INFO @wdio/local-runner: Run worker command: run
+2020-01-12T15:35:02.571Z INFO webdriverio: Initiate new session using the webdriver protocol
+2020-01-12T15:35:02.573Z INFO webdriver: [POST] http://127.0.0.1:4444/session
+2020-01-12T15:35:02.573Z INFO webdriver: DATA {
+  capabilities: { alwaysMatch: { browserName: 'chrome' }, firstMatch: [ {} ] },
+  desiredCapabilities: { browserName: 'chrome' }
+}
+2020-01-12T15:35:08.558Z INFO webdriver: COMMAND navigateTo("https://darksky.net/forecast/40.7127,-74.0059/us12/en")
+2020-01-12T15:35:08.558Z INFO webdriver: [POST] http://127.0.0.1:4444/session/fdafb3152ce6057696ad6da2b9a1e4d4/url
+2020-01-12T15:35:08.558Z INFO webdriver: DATA { url: 'https://darksky.net/forecast/40.7127,-74.0059/us12/en' }
+2020-01-12T15:35:09.354Z INFO webdriver: COMMAND maximizeWindow()
+2020-01-12T15:35:09.354Z INFO webdriver: [POST] http://127.0.0.1:4444/session/fdafb3152ce6057696ad6da2b9a1e4d4/window/maximize
+2020-01-12T15:35:13.721Z INFO webdriver: RESULT { height: 1056, width: 1936, x: -8, y: -8 }
+2020-01-12T15:35:13.732Z INFO webdriver: COMMAND findElement("css selector", ".hours")
+2020-01-12T15:35:13.732Z INFO webdriver: [POST] http://127.0.0.1:4444/session/fdafb3152ce6057696ad6da2b9a1e4d4/element
+2020-01-12T15:35:13.732Z INFO webdriver: DATA { using: 'css selector', value: '.hours' }
+2020-01-12T15:35:13.851Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '2eb081b9-d5d2-44ed-a801-be0d860790a9'
+}
+2020-01-12T15:35:13.864Z INFO webdriver: COMMAND getElementText("2eb081b9-d5d2-44ed-a801-be0d860790a9")
+2020-01-12T15:35:13.864Z INFO webdriver: [GET] http://127.0.0.1:4444/session/fdafb3152ce6057696ad6da2b9a1e4d4/element/2eb081b9-d5d2-44ed-a801-be0d860790a9/text
+2020-01-12T15:35:14.034Z INFO webdriver: RESULT Now
+12pm
+2pm
+4pm
+6pm
+8pm
+10pm
+12am
+2am
+4am
+6am
+8am
+2020-01-12T15:35:14.041Z INFO webdriver: COMMAND getUrl()
+2020-01-12T15:35:14.042Z INFO webdriver: [GET] http://127.0.0.1:4444/session/fdafb3152ce6057696ad6da2b9a1e4d4/url
+2020-01-12T15:35:14.122Z INFO webdriver: RESULT https://darksky.net/forecast/40.7127,-74.0059/us12/en
+2020-01-12T15:35:14.126Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="title"]/span[1]/span[2]/span[1]")
+2020-01-12T15:35:14.126Z INFO webdriver: [POST] http://127.0.0.1:4444/session/fdafb3152ce6057696ad6da2b9a1e4d4/element
+2020-01-12T15:35:14.126Z INFO webdriver: DATA { using: 'xpath', value: '//*[@id="title"]/span[1]/span[2]/span[1]' }
+2020-01-12T15:35:14.175Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '7bce6bec-58f9-4381-9077-c0741165665f'
+}
+2020-01-12T15:35:14.178Z INFO webdriver: COMMAND getElementText("7bce6bec-58f9-4381-9077-c0741165665f")
+2020-01-12T15:35:14.178Z INFO webdriver: [GET] http://127.0.0.1:4444/session/fdafb3152ce6057696ad6da2b9a1e4d4/element/7bce6bec-58f9-4381-9077-c0741165665f/text
+2020-01-12T15:35:14.194Z INFO webdriver: RESULT 62˚ Mostly Cloudy.
+2020-01-12T15:35:14.196Z INFO webdriver: COMMAND findElement("css selector", ".temps")
+2020-01-12T15:35:14.196Z INFO webdriver: [POST] http://127.0.0.1:4444/session/fdafb3152ce6057696ad6da2b9a1e4d4/element
+2020-01-12T15:35:14.196Z INFO webdriver: DATA { using: 'css selector', value: '.temps' }
+2020-01-12T15:35:14.208Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '69cbb6ca-c135-43ac-92cc-f123787b5ddb'
+}
+2020-01-12T15:35:14.210Z INFO webdriver: COMMAND getElementText("69cbb6ca-c135-43ac-92cc-f123787b5ddb")
+2020-01-12T15:35:14.210Z INFO webdriver: [GET] http://127.0.0.1:4444/session/fdafb3152ce6057696ad6da2b9a1e4d4/element/69cbb6ca-c135-43ac-92cc-f123787b5ddb/text
+2020-01-12T15:35:14.241Z INFO webdriver: RESULT 63°
+62°
+61°
+58°
+52°
+48°
+46°
+44°
+42°
+40°
+38°
+39°
+2020-01-12T15:35:14.246Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="title"]/span[1]/span[2]/span[1]")
+2020-01-12T15:35:14.247Z INFO webdriver: [POST] http://127.0.0.1:4444/session/fdafb3152ce6057696ad6da2b9a1e4d4/element
+2020-01-12T15:35:14.247Z INFO webdriver: DATA { using: 'xpath', value: '//*[@id="title"]/span[1]/span[2]/span[1]' }
+2020-01-12T15:35:14.377Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '7bce6bec-58f9-4381-9077-c0741165665f'
+}
+2020-01-12T15:35:14.380Z INFO webdriver: COMMAND getElementText("7bce6bec-58f9-4381-9077-c0741165665f")
+2020-01-12T15:35:14.381Z INFO webdriver: [GET] http://127.0.0.1:4444/session/fdafb3152ce6057696ad6da2b9a1e4d4/element/7bce6bec-58f9-4381-9077-c0741165665f/text
+2020-01-12T15:35:14.662Z INFO webdriver: RESULT 62˚ Mostly Cloudy.
+2020-01-12T15:35:14.731Z INFO webdriver: COMMAND getLogTypes()
+2020-01-12T15:35:14.732Z INFO webdriver: [GET] http://127.0.0.1:4444/session/fdafb3152ce6057696ad6da2b9a1e4d4/se/log/types
+2020-01-12T15:35:14.744Z INFO webdriver: RESULT [ 'browser', 'driver' ]
+2020-01-12T15:35:14.745Z INFO webdriver: COMMAND getLogs("browser")
+2020-01-12T15:35:14.745Z INFO webdriver: [POST] http://127.0.0.1:4444/session/fdafb3152ce6057696ad6da2b9a1e4d4/se/log
+2020-01-12T15:35:14.745Z INFO webdriver: DATA { type: 'browser' }
+2020-01-12T15:35:14.746Z INFO webdriver: COMMAND getLogs("driver")
+2020-01-12T15:35:14.747Z INFO webdriver: [POST] http://127.0.0.1:4444/session/fdafb3152ce6057696ad6da2b9a1e4d4/se/log
+2020-01-12T15:35:14.747Z INFO webdriver: DATA { type: 'driver' }
+2020-01-12T15:35:14.763Z INFO webdriver: RESULT []
+2020-01-12T15:35:14.769Z INFO webdriver: RESULT [
+  {
+    level: 'WARNING',
+    message: 'Timed out connecting to Chrome, retrying...\n',
+    timestamp: 1578843305403
+  },
+  {
+    level: 'WARNING',
+    message: 'Timed out connecting to Chrome, retrying...\n',
+    timestamp: 1578843311379
+  }
+]
+2020-01-12T15:35:14.778Z INFO webdriver: COMMAND deleteSession()
+2020-01-12T15:35:14.779Z INFO webdriver: [DELETE] http://127.0.0.1:4444/session/fdafb3152ce6057696ad6da2b9a1e4d4
